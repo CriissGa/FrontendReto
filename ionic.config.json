@@ -1,0 +1,7 @@
+{
+  "name": "retofrontend",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

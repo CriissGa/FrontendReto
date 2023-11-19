@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "frontprueba-27f9a": {
+      "hosting": {
+        "app": [
+          "frontprueba-27f9a"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "frontprueba-27f9a"
+  }
+}

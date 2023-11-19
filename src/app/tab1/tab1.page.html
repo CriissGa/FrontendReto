@@ -1,0 +1,41 @@
+<ion-header class="cartaheader">
+  <ion-toolbar class="colorheader">
+
+    <ion-img src="/assets/logo.png" alt="logo"></ion-img>
+    
+      <ion-title class="ion-text-center tituloheader1">¡Hola, Cristian!</ion-title>
+      <ion-title class="ion-text-center tituloheader2">Mis Cuentas</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="colorfondo" [fullscreen]="true">
+
+
+    <ion-card class="cartaheader">
+      <ion-card-header>
+        <ion-card-title>CUENTA DE AHORROS</ion-card-title>
+        <ion-card-subtitle>{{ numerocuentaAhorro }}</ion-card-subtitle>
+        <ion-card-subtitle class="ion-text-end colordinero">${{ saldoAhorro }}</ion-card-subtitle>
+      </ion-card-header>
+      <ion-card-content class="ion-text-end">
+        Disponible.
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>CUENTA DE PLANILLA</ion-card-title>
+        <ion-card-subtitle>{{ numerocuentaPlanilla }}</ion-card-subtitle>
+        <ion-card-subtitle class="ion-text-end colordinero">${{ saldoPlanilla }}</ion-card-subtitle>
+      </ion-card-header>
+      <ion-card-content class="ion-text-end">
+        Disponible.
+      </ion-card-content>
+    </ion-card>
+
+
+
+  </ion-content>
+
+  
+ 
